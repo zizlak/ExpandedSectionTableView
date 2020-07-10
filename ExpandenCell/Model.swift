@@ -17,10 +17,11 @@ struct ExpandedModel {
 class ModelData{
     
     static var arrayOfData = [
-        ExpandedModel(isExpanded: true, title: "Words", array: ["One", "Two", "Three", "Four", "Five"]),
-        ExpandedModel(isExpanded: true, title: "Numbers", array: ["6", "7", "8", "9", "10"]),
-        ExpandedModel(isExpanded: true, title: "Сharacters", array: ["Q", "W", "E", "R", "T", "Y"]),
-        ExpandedModel(isExpanded: true, title: "Emojis", array: ["😀", "😡", "🥶", "😱", "😈"])
+        ExpandedModel(isExpanded: false, title: "Capitals", array: ["London", "Berlin", "Prague", "Paris", "Helsinki"]),
+        ExpandedModel(isExpanded: false, title: "Continents", array: ["Africa","Eurasia", "North America", "South America", "Australia"]),
+        ExpandedModel(isExpanded: false, title: "Time", array: ["17:00", "18:00", "22:30", "23:00", "23:30", "23:59"]),
+        ExpandedModel(isExpanded: false, title: "Emojis", array: ["😀", "😡", "🥶", "😱", "😈"]),
+        ExpandedModel(isExpanded: false, title: "Simpsons", array: ["Homer", "Bart", "Lisa", "Marge", "Meggie"])
     ]
 
 }
